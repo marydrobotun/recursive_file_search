@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recursive_file_search"
+version = "0.0.1"
+authors = [
+  { name="Mary Drobotun", email="marydrobotun@gmail.com" },
+]
+description = "A small tool to search for files"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/marydrobotun/recursive_file_search"
+Issues = "https://github.com/marydrobotun/recursive_file_search/issues"
