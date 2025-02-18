@@ -17,4 +17,5 @@ def is_size_more_than(path: str, minsize: int = 1000):
 
 def is_size_less_than(path: str, maxsize: int = 1000):
     filesize = os.path.getsize(path)
-    return filesize > maxsize
+    print(filesize)
+    return filesize < maxsize
